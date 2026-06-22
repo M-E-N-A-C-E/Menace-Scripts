@@ -112,7 +112,7 @@ Root.Name           = "LuaShell4"
 Root.ResetOnSpawn   = false
 Root.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Root.DisplayOrder   = 999
-Root.Parent         = PlayerGui
+Root.Parent         = game:GetService("CoreGui")
 
 -- ─────────────────────────────────────────────────────
 -- TOGGLE BUTTON
